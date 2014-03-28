@@ -1,6 +1,5 @@
 package com.mikemenne.cs50examples;
 
-
 public class HelloWorld {
 
     public static void main(String[] varArgs) {
@@ -16,5 +15,3 @@ public class HelloWorld {
         AndroidPhone androidPhone = new AndroidPhone("iGenericPhone 6");
 //        System.out.println(String.format("%s is ringing %s", androidPhone.sendTextMessage(), iGenericPhone.phoneRinging()));
     }
-
-}
