@@ -7,11 +7,11 @@ package com.mikemenne.cs50examples;
  * Time: 10:58 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Phone {
+public class GenericPhone implements Phone {
 
     private String type;
 
-    public Phone(String phoneType) {
+    public GenericPhone(String phoneType) {
         type = phoneType;
     }
 
